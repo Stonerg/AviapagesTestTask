@@ -1,0 +1,83 @@
+body {
+  background: #EAEAE3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+header form {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+header input[type="text"] {
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header button {
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1em 0;
+        }
+
+        thead {
+            background-color: #f2f2f2;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+
+        .image-cell {
+            text-align: center;
+        }
+
+        .image-cell img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+header button:hover {
+  cursor: pointer;
+  background-color: #0062cc;
+}
